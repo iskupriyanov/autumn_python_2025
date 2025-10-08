@@ -19,10 +19,21 @@
 age = "23"
 age_1 = int(age)
 foo = '23abc'
-foo_1 = int(foo)
-print(age)
-print (foo)
+foo_1 = int(foo[:2])
+print (type(age_1))
+print (type(foo_1))
+
+age2 = "123abc"
+age2 = bool(age2)
+print(type(age2))
 
 flag = 1
 flag_1 = bool(flag)
-print (flag_1)
+print (type(flag_1))
+
+str_one = "Privet"
+str_ine = bool(str_one)
+str_two = ""
+str_two = bool(str_two)
+print(type(str_one))
+print(type(str_two))

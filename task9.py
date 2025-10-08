@@ -2,7 +2,7 @@
 # (коэффициент A не равен 0).
 # Примечание: коэффициенты получаем через функцию input().
 
-A = input(int)
-B = input(int)
+A = int(input())
+B = int(input())
 x = -B/A
 print (x)
