@@ -6,8 +6,8 @@
 A = int(input())
 B = int(input())
 C = int(input())
-AB = (B-A)
-BC = (C-B)
+AB = abs(B-A)
+BC = abs(C-B)
 SUMM = AB+BC
 print (AB)
 print (BC)
